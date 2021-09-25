@@ -21,7 +21,7 @@ class Launcher{
 
 	fly()
 	{
-		//Write code to set the bodyA of launcher to null
+		this.launcher.bodyA=null;
 		
 	}
 

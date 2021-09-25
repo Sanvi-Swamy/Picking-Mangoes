@@ -99,10 +99,14 @@ function mouseDragged()
 function mouseReleased()
 {
 	launcher.fly();
-  this.launcher.bodyA=null;
+
 }
 
-
+function keyPressed(){
+  if(keyCode===32){
+    launcher.attach(stone.body);
+  }
+}
 
 function detectollision(lstone,lmango){
 
